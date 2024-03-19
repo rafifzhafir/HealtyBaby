@@ -11,7 +11,7 @@ class BayiPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const AppBarCustom(
-        title: "Data Bayimu",
+        title: "Data Si Kecil",
         page: "/home",
       ),
       body: const Center(

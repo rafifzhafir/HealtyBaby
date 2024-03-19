@@ -50,36 +50,37 @@ class _HomePageState extends State<HomePage> {
                   shrinkWrap: true,
                   children: <Widget>[
                     CardMenu(
-                      name: "Daftar\nBayimu",
+                      name: "Imunisasi",
                       urlIcon: "assets/icons/baby.png",
-                      color: Colors.yellow,
+                      color: Color.fromARGB(255, 255, 142, 122),
                       onTap: () {
                         Navigator.of(context).pushNamed("/bayi");
                       },
                     ),
                     CardMenu(
-                      name: "Riwayat\nImunisasi",
+                      name: "Riwayat",
                       urlIcon: "assets/icons/immunity.png",
-                      color: Colors.blueAccent,
+                      color: Color.fromARGB(255, 100, 210, 253),
                       onTap: () {
                         Navigator.of(context).pushNamed("/riwayat");
                       },
                     ),
                     CardMenu(
-                      name: "Informasi\nImunisasi",
+                      name: "Artikel",
                       urlIcon: "assets/icons/info.png",
-                      color: Colors.greenAccent,
+                      color: Color.fromARGB(255, 169, 221, 56),
                       onTap: () {
                         Navigator.of(context).pushNamed("/info");
                       },
                     ),
-                    // CardMenu(
-                    //   name: "Tabel\nImunisasi",
-                    //   urlIcon: "assets/icons/table.png",
-                    //   color: Colors.redAccent,
-                    //   onTap: () {},
-                    // ),
                   ],
+                ),
+                Padding(
+                  padding: EdgeInsets.only(top: 10,right: 10),
+                  child: Positioned(
+                    bottom: 0,
+                    child: Image.asset("assets/images/tumbuh.png")
+                  ),
                 ),
               ],
             ),

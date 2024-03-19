@@ -78,7 +78,7 @@ class _BodyState extends State<Body> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Image.asset(
-                "assets/images/register.png",
+                "assets/images/login.png",
                 height: size.height * 0.25,
               ),
               SizedBox(height: size.height * 0.03),

@@ -15,7 +15,7 @@ class DetailPage extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: const AppBarCustom(
-        title: "Detail Penjelasan",
+        title: "Detail",
         page: "/info",
       ),
       body: SafeArea(
